@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import CatComponent	from './CatComponent'
+import GraceHopperQuoteComponent from './GraceHopperQuoteComponent'
 
 class App extends Component {
 	render() {
@@ -11,5 +13,6 @@ class App extends Component {
 			</div>
 		);
 	}
+}
 
 export default App;
